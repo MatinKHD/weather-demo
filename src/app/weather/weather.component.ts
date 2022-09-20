@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-weather',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./weather.component.scss']
 })
 export class WeatherComponent implements OnInit {
-
+  loading = false;
   constructor() { }
 
   ngOnInit(): void {

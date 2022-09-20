@@ -1,1 +1,6 @@
-<p>weather works!</p>
+<div *ngIf="loading" class="spinner-loading">
+  <mat-spinner></mat-spinner>
+</div>
+<app-nav></app-nav>
+<app-main></app-main>
+<app-footer></app-footer>
